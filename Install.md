@@ -10,6 +10,7 @@ Pré requis :
 * Node JS 
 * Composer 
 * Git 
+* Commande Symfony via le site officiel Symfony https://symfony.com/download
 
 
 ## PHP en ligne de commande
@@ -40,7 +41,7 @@ Pré requis :
 
 ###Création de la base de données
 
-Modifier le fichier .env.local avec les informations de votre BDD, exemple : 
+Modifier le fichier .`env.local` avec les informations de votre BDD, exemple : 
 
 Avec mot de passe : `DATABASE_URL="mysql://root:root@localhost:3306/l3_symfony"`
 
@@ -67,5 +68,6 @@ Créer la base de données avec la commande ` php bin/console doctrine:database:
 
 # Lancer le serveur Symfony 
 > Pré requis : Installer la commande Symfony via le site officiel Symfony (bouton Download)
+>https://symfony.com/download
 
 Lancer la commande `symfony server:start`
