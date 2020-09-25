@@ -39,7 +39,7 @@ Pré requis :
 
 ## Démarrage projet Symfony
 
-###Création de la base de données
+### Création de la base de données
 
 Modifier le fichier .`env.local` avec les informations de votre BDD, exemple : 
 

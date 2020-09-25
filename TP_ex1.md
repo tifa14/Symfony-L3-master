@@ -3,7 +3,8 @@
 
 ## Créer l'espace actualités
 
-* Créer l'entité Article
+### Création des articles
+* Créer l'entité Article : `php bin/console make:entity`
     * Propriétés :
         * Titre
         * Sous titre
@@ -13,6 +14,12 @@
     * Formulaire
 * Intégrer le lien de la liste des articles dans le menu de navigation principal
 
+### Création des catégories d'articles
 
+* Créer l'entité Category
+    * Propriétés : 
+        * Nom
+
+* Modifier l'entité Article pour faire une liaison avec l'entité Category
 
 
