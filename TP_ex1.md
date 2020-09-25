@@ -25,5 +25,17 @@ L'entité Article existe déjà dans le dossier `src/Entity`
     * Controller / Routes
     * Formulaire
 * Modifier l'entité Article pour faire une liaison avec l'entité Category
+    * Lancer la commande `php bin/console make:entity`
+        * Indiquer le nom de l'entité à modifier (`Article`)
+        * Choisir le type de propriété `relation`
+            * _Dans le cahier des charges il est indiqué "un article peut avoir plusieurs catégories"_
+            * La relation à choisir est donc __OneToMany__
+            * Indiquez ensuite à quelle entité est lié l'article : `Category`
+            * Validez
+                        
+* Mettre à jour la base de données : 
+* Créer les fichiers de migration : ` php bin/console make:migration`
+* Lancer la mise à jour de la BDD : ` php bin/console doctrine:migrations:migrate`
+         
 
 
