@@ -9,6 +9,7 @@ Pré requis :
 * PHP 7.3 ou plus
 * Node JS 
 * Composer 
+* Git 
 
 
 ## PHP en ligne de commande
@@ -23,6 +24,12 @@ Pré requis :
     * Coller le chemin dans les variables "Path"
     * Valider
     * Ouvrir une invit de commande et lancer `php -v`
+
+## Récupérer le projet
+
+* Cloner ou télécharger le projet
+* Copier coller le projet dans le répertoire `www` de Wamp ( dossier `htdocs`pour Xamp)
+* En ligne de commande se placer dans le dossier du projet, exemple : `cd C:\wamp64\www\Symfony-L3-master`
 
 ##Installation Packages PHP
 
