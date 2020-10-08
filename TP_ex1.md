@@ -34,8 +34,8 @@ L'entité Article existe déjà dans le dossier `src/Entity`
             * Validez
                         
 * Mettre à jour la base de données : 
-* Créer les fichiers de migration : ` php bin/console make:migration`
-* Lancer la mise à jour de la BDD : ` php bin/console doctrine:migrations:migrate`
+    * Créer les fichiers de migration : ` php bin/console make:migration`
+    * Lancer la mise à jour de la BDD : ` php bin/console doctrine:migrations:migrate`
          
 
 
